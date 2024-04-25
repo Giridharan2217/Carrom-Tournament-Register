@@ -1,0 +1,235 @@
+/*{
+    background-color: aquamarine;
+    color: white;
+}*/
+h1{
+ font-family:Noto sans Lepcha,sans-serif;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p span{
+    font-weight:bold;
+}
+.intro{
+    background-image: url(../img/colorful-modern-lotus-flower-abstract-logo_649646-662.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+
+}
+.intro h1{
+    color:brown;
+    border-color:red ;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: dotted;
+    border-top: dotted;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.intro >p{
+    font-size: 20px;
+}
+.intro button{
+    color:blue;
+    border-color:brown;
+    border-bottom:dotted;
+    border-top: dotted;
+    border-right:solid;
+    border-left: solid;
+    border-width: 4px;
+    border-radius:15px;
+    margin-top:50px;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.intro img{
+     padding:60px;
+}
+.bg h1{
+    font-weight:bold;
+}
+.bg{
+    padding:30px;
+    width:auto;
+    max-width:500px;
+    background-color:lawngreen;
+}
+.ot h1{ 
+    font-weight:bold;
+}
+.ot{
+    padding:30px;
+    outline:5px solid blueviolet;
+    outline-style:dashed;
+    border:2px dashed black;
+    background-color: coral;
+}
+.tf h1{
+    font-weight:bold;
+    text-shadow:3px 2px black;
+}
+.tf{
+    padding:30px;
+    background-color: brown;
+    color:white;
+    text-align:justify;
+    line-height:1.8;
+    word-spacing:10px;
+
+}
+.links{
+    padding:30px;
+    font-weight:bold;
+    text-align: justify;
+    color:violet;
+    background-color: chocolate;
+}
+.links a{
+    color:lime;
+}
+.links a:link{
+    color: aqua;
+}
+.links a:visited{
+    color:aliceblue;
+}
+.links a:hover{
+    color: darkcyan;
+    font-size:20px;
+}
+.links a:active{
+    color:white;
+}
+.fc{
+    padding:10px;
+    border:none;
+    color:rgb(234, 242, 226);
+    border-radius:8px;
+    background-color: blue;
+}
+.gl{
+    padding:10px;
+    border:none;
+    color:chartreuse;
+    border-radius:8px;
+    background-color:red;
+}
+.tw{
+    padding:10px;
+    border:none;
+    color:rgb(181, 184, 178);
+    border-radius:8px;
+    background-color:lightblue;
+}
+ol{
+    background-color: rgb(162, 132, 132);
+    padding:20px;
+    list-style:circle;
+}
+ol li{
+    padding:5px;
+    background-color:red;
+    margin-left:30px;
+}
+table{
+    text-align: center;
+    width:60%;
+    background-color:rgb(86, 86, 152);
+    border-collapse: collapse;
+
+}
+table{
+    border:1px solid white;
+}
+th{
+    font-size:20px;
+    padding:15px;
+    background-color: blue;
+}
+td{
+    padding: 15px;
+}
+tr:hover{
+    background-color: rgb(19, 19, 19);
+}
+tr:nth-child(even){
+    background-color: rgb(180, 161, 161);
+}
+
+ul li a{
+   
+    color:green;
+}
+li{
+    margin-right:50px;
+    display: inline;
+}
+.hidden{
+    /*display: none;*/
+    visibility: hidden;
+}
+.forms{
+    padding:20px 20px;
+    background-color: whitesmoke;
+}
+input[type="text"]{
+    width:100%;
+    padding: 12px 20px;
+    margin:15px 0;
+    border:1px solid gainsboro;
+    border-radius:4px;
+    box-sizing: border-box;
+}
+button[type="submit"]{
+    width:100%;
+    padding:14px 20px;
+    background-color: lightgreen;
+    color: white;
+    margin:20px 0;
+    border:none;
+    border-radius:4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+   background-color: greenyellow;
+}
+/*body{
+    counter-reset:Videos;
+}
+.counter{
+    padding: 20px;
+    background-color: blueviolet;
+}
+h2::before{
+    counter-increment: Videos+2;
+    content:"Videos #" counter(Videos) ":";
+    color: aliceblue;
+}*/
+/*body{
+    background-color: rgb(64, 137, 137);
+}
+@media screen and (max-width: 900px) {
+    body{
+        background-color:lightcoral;
+    }
+    
+}*/
+/*@media screen and (max-width:600px) {
+body{
+    background-color: lightgreen;
+}    
+}*/
+/*.unit{
+    font-size:20px;
+}*/
+h2{
+    background-color: green !important;
+}
+.example h2{
+    background-color: red;
+} 
+#example h2{
+    background-color: yellow;
+}
